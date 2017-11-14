@@ -64,7 +64,7 @@
 		
 		<div class="col-lg-12 show-for-contract">
 			<p>This doc define the role of the CTO in company _____________________________.<br />
-			It has no real legal bind and acts solely as a testimony of mutual understanding between the founders.<br />			
+			It has no real legal bind and acts solely as a testimony of mutual understanding between the founders.		
 			<br />
 			</p>
 		</div>
@@ -263,10 +263,14 @@
 			$(".show-for-contract").show();
 			$(".spacer").hide();
 			$(document.body).css("padding-top", "0px");
-			$("h1").css("font-size", "1.8em");
-			$("h2").css("font-size", "1.6em");
-			$("h3").css("font-size", "1.4em");
-			$("h4").css("font-size", "1.2em");
+			$("p").css("font-size", "0.72em");
+			$("li").css("font-size", "0.72em");
+			$("h1").css("font-size", "1.6em");
+			$("h2").css("font-size", "1.4em");
+			$("h3").css("font-size", "1.2em");
+			$("h4").css("font-size", "1.0em");
+			$("hr").hide();
+			$("h1").first().removeClass("mt-5").css("margin-top", "0.8em");
 			$("li").click(function(){
 				if (confirm("Remove this bullet?"))
 				{
